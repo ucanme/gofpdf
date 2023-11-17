@@ -11,6 +11,8 @@ licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.github
 Package gofpdf implements a PDF document generator with high level
 support for text, drawing and images.
 
+## Fixs
+ - character will loose where we use MultiCell with a text more than a long (使用multiCell的使用当文本超过当行的长度,每行会丢失一个字符)
 ## Features
 
   - UTF-8 support
