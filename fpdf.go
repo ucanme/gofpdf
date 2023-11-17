@@ -2750,6 +2750,7 @@ func (f *Fpdf) MultiCell(w, h float64, txtStr, borderStr, alignStr string, fill 
 				i = sep + 1
 			}
 			sep = -1
+			i--
 			j = i
 			l = 0
 			ns = 0
